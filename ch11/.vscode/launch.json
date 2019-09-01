@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rational",
+            "request": "launch",
+            "mainClass": "Rational"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TimeClient",
+            "request": "launch",
+            "mainClass": "TimeClient"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Recurse",
+            "request": "launch",
+            "mainClass": "Recurse"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercise",
+            "request": "launch",
+            "mainClass": "Exercise"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Format",
+            "request": "launch",
+            "mainClass": "Format"
+        }
+    ]
+}

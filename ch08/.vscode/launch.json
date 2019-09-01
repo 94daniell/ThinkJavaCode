@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MakeDubMus",
+            "request": "launch",
+            "mainClass": "MakeDubMus"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Histogram",
+            "request": "launch",
+            "mainClass": "Histogram"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - encap",
+            "request": "launch",
+            "mainClass": "encap"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayExamples",
+            "request": "launch",
+            "mainClass": "ArrayExamples"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Moire",
+            "request": "launch",
+            "mainClass": "Moire"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Mickey",
+            "request": "launch",
+            "mainClass": "Mickey"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - japan",
+            "request": "launch",
+            "mainClass": "japan"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Drawing",
+            "request": "launch",
+            "mainClass": "Drawing"
+        }
+    ]
+}

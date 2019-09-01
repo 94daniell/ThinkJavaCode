@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Big",
+            "request": "launch",
+            "mainClass": "Big"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointRect",
+            "request": "launch",
+            "mainClass": "PointRect"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Riddle",
+            "request": "launch",
+            "mainClass": "Riddle"
+        }
+    ]
+}

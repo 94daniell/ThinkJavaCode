@@ -2,106 +2,45 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Tables",
+            "name": "CodeLens (Launch) - encap",
             "request": "launch",
-            "mainClass": "Tables",
+            "mainClass": "encap",
             "projectName": "ThinkJavaCode_bf076222"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Loops",
+            "name": "CodeLens (Launch) - Format",
             "request": "launch",
-            "mainClass": "Loops",
+            "mainClass": "Format",
             "projectName": "ThinkJavaCode_bf076222"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Multadd",
+            "name": "CodeLens (Launch) - ArrayExamples",
             "request": "launch",
-            "mainClass": "Multadd",
+            "mainClass": "ArrayExamples",
             "projectName": "ThinkJavaCode_bf076222"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - testing",
+            "name": "CodeLens (Launch) - math",
             "request": "launch",
-            "mainClass": "testing",
+            "mainClass": "math",
             "projectName": "ThinkJavaCode_bf076222"
         },
         {
             "type": "java",
             "name": "CodeLens (Launch) - Exercise",
             "request": "launch",
-            "mainClass": "Exercise"
+            "mainClass": "Exercise",
+            "projectName": "ThinkJavaCode_bf076222"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Series",
+            "name": "CodeLens (Launch) - Tables",
             "request": "launch",
-            "mainClass": "Series"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Recursive",
-            "request": "launch",
-            "mainClass": "Recursive"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Buzz",
-            "request": "launch",
-            "mainClass": "Buzz"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - CheckFermat",
-            "request": "launch",
-            "mainClass": "CheckFermat"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - GuessStarter",
-            "request": "launch",
-            "mainClass": "GuessStarter",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Temp",
-            "request": "launch",
-            "mainClass": "Temp",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Echo",
-            "request": "launch",
-            "mainClass": "Echo"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Convert",
-            "request": "launch",
-            "mainClass": "Convert",
-            "console": "integratedTerminal"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Time",
-            "request": "launch",
-            "mainClass": "Time"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Date",
-            "request": "launch",
-            "mainClass": "Date"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Hello",
-            "request": "launch",
-            "mainClass": "Hello"
+            "mainClass": "Tables",
+            "projectName": "ThinkJavaCode_bf076222"
         }
     ]
 }

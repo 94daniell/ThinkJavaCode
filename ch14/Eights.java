@@ -25,7 +25,7 @@ public class Eights {
         one = new Player("Allen");
         deck.deal(one.getHand(), handSize);
 
-        two = new Player("Chris");
+        two = new SmartPlayer("Chris");
         deck.deal(two.getHand(), handSize);
 
         // turn one card face up
@@ -111,8 +111,8 @@ public class Eights {
         Card next = player.play(this, prev);
         discardPile.addCard(next);
 
-        System.out.println(player.getName() + " plays " + next);
-        System.out.println();
+     //   System.out.println(player.getName() + " plays " + next);
+       // System.out.println();
     }
 
     /**
@@ -123,23 +123,34 @@ public class Eights {
 
         // keep playing until there's a winner
         while (!isDone()) {
-            displayState();
-            waitForUser();
+        //    displayState();
+            //waitForUser();
             takeTurn(player);
             player = nextPlayer(player);
         }
 
         // display the final score
-        one.displayScore();
-        two.displayScore();
+        //one.displayScore();
+        //two.displayScore();
     }
+
 
     /**
      * Creates the game and runs it.
      */
     public static void main(String[] args) {
-        Eights game = new Eights();
-        game.playGame();
+        int[] tally = new int[2];
+        for (int i = 0; i < 100; i++) {
+            Eights game = new Eights();
+            game.playGame();
+            if (game.one.score() > game.two.score()) {
+                tally[0]++;
+            } else if (game.two.score() > game.one.score()) {
+                tally[1]++;
+            }
+        }
+        System.out.printf("Allen with %d wins, Chris with %d\n",tally[0], tally[1]);
+
     }
 
 }
